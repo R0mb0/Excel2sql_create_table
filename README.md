@@ -44,6 +44,12 @@ This project provides a PowerShell script (`ExcelToSqlCreateTable.ps1`) to autom
     .\ExcelToSqlCreateTable.ps1
     ```
 
+    > If the script doesn't run, please execute this command, then run the script again.
+    > 
+    > ```powershell
+    >Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+    > ```
+
 3. **If multiple `.xlsx` files are present:**
     - The script will display a numbered list of all `.xlsx` files in the directory.
     - Enter the corresponding number to select your desired file.
