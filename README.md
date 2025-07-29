@@ -92,10 +92,6 @@ Enter the number corresponding to the file you want to process, and continue as 
 - **Sheet not found:** Double-check the worksheet name is correct (case-sensitive).
 - **Weird column names:** If your Excel has empty or duplicate headers, the script will auto-correct them (`UnnamedColumn`, `ColumnName_2`, etc.).
 
-## Customization
-
-- You can modify the script to change the default output file name, adjust SQL type mapping, or add more logic for custom data types.
-
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
